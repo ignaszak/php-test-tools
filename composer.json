@@ -1,0 +1,24 @@
+{
+  "name" : "ignaszak/testing-tools",
+  "type" : "library",
+  "description" : "Testing tools",
+  "keywords" : [
+    "phpunit",
+    "test",
+    "tool"
+  ],
+  "license" : "MIT",
+  "authors" : [{
+    "name" : "Tomasz Ignaszak",
+    "email" : "tomek.ignaszak@gmail.com"
+  }
+  ],
+  "require" : {
+    "php" : ">=7.0"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Ignaszak\\TestingTools\\" : "src/"
+    }
+  }
+}
