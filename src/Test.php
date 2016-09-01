@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Ignaszak\TestTools;
+namespace Ignaszak\TestingTools;
 
 /**
  * Class Test
