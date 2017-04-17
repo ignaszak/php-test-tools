@@ -10,6 +10,8 @@ declare(strict_types=1);
 
 namespace Ignaszak\TestingTools;
 
+use PHPUnit\Framework\Assert;
+
 /**
  * Class Test
  * @package Ignaszak\TestTools
@@ -29,7 +31,7 @@ class Test
      */
     public static function get(string $property, $object = null)
     {
-        return \PHPUnit_Framework_Assert::readAttribute(
+        return Assert::readAttribute(
             is_null($object) ? self::$object : $object,
             $property
         );

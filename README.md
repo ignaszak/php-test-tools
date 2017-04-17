@@ -5,7 +5,7 @@ This package provides tools for testing class via reflection.
 # Requirements
 
 * PHP >= 7.0.0
-* PHPUnit = 5.*
+* PHPUnit >= 6.0.0
 
 # Installation
 
