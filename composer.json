@@ -14,11 +14,13 @@
   }
   ],
   "require" : {
-    "php" : ">=7.0"
+    "php" : ">=7.0",
+    "phpunit/phpunit" : "5.*"
   },
   "autoload" : {
     "psr-4" : {
-      "Ignaszak\\TestingTools\\" : "src/"
+      "Ignaszak\\TestingTools\\" : "src/",
+      "Ignaszak\\TestingTools\\Example\\" : "example/"
     }
   }
 }

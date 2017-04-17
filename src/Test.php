@@ -14,7 +14,7 @@ namespace Ignaszak\TestingTools;
  * Class Test
  * @package Ignaszak\TestTools
  */
-abstract class Test
+class Test
 {
 
     /**

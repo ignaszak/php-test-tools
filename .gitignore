@@ -1,3 +1,6 @@
 $ cat .gitignore
 .git
 .idea
+composer.loc
+vendor
+example
